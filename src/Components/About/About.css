@@ -1,0 +1,105 @@
+.about-container {
+    font-family: 'Arial', sans-serif;
+    padding: 2rem;
+    color: #333;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #e8f5e9, #e0f7fa);
+    margin-top: 2rem;
+  }
+  
+  .about-hero {
+    text-align: center;
+    padding: 2rem 0;
+    background: linear-gradient(135deg, #81c784, #4db6ac);
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .about-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-tagline {
+    font-size: 1.4rem;
+  }
+  
+  .highlight {
+    color: #ffca28;
+    font-weight: bold;
+  }
+  
+  .about-content {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .about-values-section {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .value-card {
+    padding: 1rem;
+    border: 2px solid #81c784;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .value-card h3 {
+    color: #2e7d32;
+  }
+  
+  .about-offerings {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .offerings-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .offerings-list li {
+    background: #c8e6c9;
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 1rem;
+  }
+  
+  .call-to-action {
+    text-align: center;
+    margin-top: 3rem;
+    background: #4db6ac;
+    padding: 1.5rem;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .cta-button {
+    background: #ffca28;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4e342e;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.1);
+    background: #ffd54f;
+  }
+  
